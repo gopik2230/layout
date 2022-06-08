@@ -1,0 +1,69 @@
+body {
+    font-family: "Trirong", serif;
+}
+.col-head {
+    padding: 3% 0;
+    background-color: rgb(158, 253, 158);
+    margin-left: 0.3rem;
+    width: 98%;
+    margin-top: 0.3rem;
+}
+.head-description {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.second-column {
+    margin-left: -0.3rem ;
+    margin-top: 0.3rem;
+}
+h5 {
+    font-size: 2rem;
+}
+.main-menu {
+    background-color: rgb(180, 180, 180);
+    height: 30rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0.3rem;
+}
+p {
+    font-size: 2rem;
+}
+.sub-menu {
+    padding-left: 0;
+    padding-right: 0;
+    height: 30rem;
+    font-size: 1.2rem;
+}
+.footer {
+    background-color: rgb(158, 253, 158);
+    width: 98%;
+    margin-left: 0.3rem;
+  
+}
+.footer-description {
+    margin-bottom: 0;
+    font-size: 2rem;
+    text-align: center;
+ }
+@media (max-width:738px) {
+    .head-description {
+        font-size: 2rem;
+    }
+    .footer-description {
+        font-size: 1.3rem;
+        
+     }
+    .main-menu {
+        width: 30%;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+    .sub-menu {
+        width: 68%;
+    }
+} 
